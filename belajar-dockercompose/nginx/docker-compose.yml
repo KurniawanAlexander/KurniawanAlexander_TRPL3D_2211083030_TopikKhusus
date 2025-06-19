@@ -1,0 +1,11 @@
+services:
+  nginx-example:
+    container_name: my-nginx
+    image: nginx:latest
+    ports:
+      - "8080:80"
+  nginx-example2:
+    container_name: my-nginx2
+    image: nginx:alpine
+    ports:
+      - "8081:80"

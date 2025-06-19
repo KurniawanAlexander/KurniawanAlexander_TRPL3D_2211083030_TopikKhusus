@@ -1,0 +1,9 @@
+services:
+  node-app1:
+    container_name: node-app-dev
+    build:
+      context: ../ #konteks build sekarang jadi folder "node_app"
+      dockerfile: dev/Dockerfile
+
+    ports:
+      - "3000:3000"

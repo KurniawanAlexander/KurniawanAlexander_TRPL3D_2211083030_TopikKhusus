@@ -1,0 +1,6 @@
+services:
+  nginx-buildelement:
+    container_name: nginx-buildelement
+    build: .
+    ports:
+      - "8080:80"
