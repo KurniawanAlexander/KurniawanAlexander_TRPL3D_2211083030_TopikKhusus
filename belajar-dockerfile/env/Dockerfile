@@ -1,0 +1,7 @@
+FROM nginx:alpine
+
+ENV DB_HOST=localhost
+ENV DB_PORT=5432
+ENV DB_USER=admin
+ENV DB_PASSWORD=secret
+EXPOSE 8082
