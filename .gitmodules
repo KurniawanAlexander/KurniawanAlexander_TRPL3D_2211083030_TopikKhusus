@@ -1,0 +1,3 @@
+[submodule "belajar-docker"]
+	path = belajar-docker
+	url = https://gitlab.com/kusnadi8605/belajar-docker
